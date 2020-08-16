@@ -1,0 +1,153 @@
+body {
+    background-color: #2f303a;
+}
+
+nav {
+    background-color: #2f303a;
+    padding: 20px 20px;
+}
+
+nav .logo a {
+    color: white;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 0px;
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+
+nav ul li a img {
+    height: 60px;
+    width: 60px;
+}
+
+nav ul li a:hover {
+    color: #2f303a;
+    background-color: white;
+    text-decoration: none;
+}
+
+.active {
+    color: #2f303a;
+    background-color: white;
+    text-decoration: none;
+}
+
+.left-image {
+    padding-top: 70px;
+}
+
+.left-image p {
+    color: white;
+    padding-right: 40px;
+}
+
+form {
+    background-color: white;
+    padding: 20px 32px;
+    text-align: center;
+}
+
+form input {
+    border: none !important;
+    border-bottom: 4px solid #f59494 !important;
+    border-radius: 0px !important;
+    background-color: #d3d9e0 !important;
+}
+
+form button {
+    width: 100%;
+    background-color: #f59494 !important;
+    padding: 4px;
+    font-weight: 500;
+    border: 0px solid blue;
+}
+
+table {
+    color: black;
+    margin-top: 40px;
+    text-align: center;
+}
+
+table tr td:nth-child(odd) {
+    background-color: white;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+table tr td:nth-child(even) {
+    background-color: #f0f4fa;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+table tr:hover {
+    background-color: #d3d9e0 !important;
+}
+
+table thead tr.header td {
+    background-color: #f59494 !important;
+}
+
+@media screen and (max-width:576px) {
+    .left-image {
+        padding-top: 10px;
+    }
+    .left-image img {
+        width: 100%;
+    }
+    table {
+        display: block;
+        width: 100%;
+        overflow-x: auto;
+    }
+    nav {
+        background-color: #2f303a;
+        padding: 10px 0px;
+    }
+    nav .logo a {
+        color: white;
+        font-size: 16px;
+        font-weight: 700;
+    }
+    nav ul {
+        list-style: none;
+        margin-bottom: 0px;
+        float: left;
+        padding-left: 0px;
+    }
+    nav ul li {
+        display: inline-block;
+        padding: 5px 0px;
+    }
+    nav ul li a {
+        color: white;
+        font-size: 16px;
+        font-weight: 500;
+        padding: 5px 5px;
+    }
+    nav ul li a img {
+        height: 40px;
+        width: 40px;
+    }
+    nav ul li a:hover {
+        color: #2f303a;
+        background-color: white;
+        text-decoration: none;
+    }
+}

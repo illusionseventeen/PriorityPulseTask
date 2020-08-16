@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div class="col-md-4 logo">
+                    <a href="index.html">Priority Pulse</a>
+                </div>
+
+                <div class="col-md-8 pl-0 pl-1 pr-0">
+                    <ul>
+                        <li><a href="" class="active">Home</a></li>
+                        <li><a href="">Active Rides</a></li>
+                        <li><a href="">Profile</a></li>
+                        <li><a href="">Logout</a></li>
+                        <li>
+                            <a href=""><img src="image/profile.png" alt=""></a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </nav>
+
+    <section class="mt-4">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-8">
+                    <div class="left-image">
+                        <img src="image/bus.png" alt="">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sit blanditiis perspiciatis aperiam itaque porro, accusamus adipisci dolorum laboriosam error temporibus consequatur reiciendis, consequuntur maxime nulla illum ab ea totam.
+                            Quas?
+                        </p>
+                    </div>
+
+                </div>
+
+                <div class="col-md-4">
+                    <div class="form">
+                        <form action="">
+                            <h2>Patient Details</h2>
+                            <H6>Fill the details below</H6>
+
+                            <div class="form-group mt-4">
+                                <input type="text" class="form-control patient-name" id="patient-name" placeholder="Patient Name">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control patient-age" id="patient-age" placeholder="Patient Age">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control case" id="case" placeholder="Case">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control priority-level" id="priority-level" placeholder="Priority Level">
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control contact" id="contact" placeholder="Contact">
+                            </div>
+                            <div class="form-group mb-0">
+                                <button type="button" class="button" onclick="insertData()">Submit</button>
+                            </div>
+
+                            <h6>Getting problem in submitting</h6>
+
+                            <div class="form-group mt-4 mb-0">
+                                <button type="submit" class="button">Track Patient</button>
+                            </div>
+
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <table id="myTable" class="table table-hover">
+                        <thead>
+                            <tr class="header">
+                                <td>Sr. No.</td>
+                                <td>Patient Name</td>
+                                <td>Patient Age</td>
+                                <td>Case</td>
+                                <td>Priority Level</td>
+                                <td>Contact</td>
+                            </tr>
+                        </thead>
+                        <tbody id="table_body">
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</body>
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<script src="js/script.js"></script>
+
+</html>
